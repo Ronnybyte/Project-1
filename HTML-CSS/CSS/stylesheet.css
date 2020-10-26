@@ -1,0 +1,71 @@
+body 
+{
+    background-image: url(../Images/dot-grid.png);    
+    margin: 0;
+    text-align: center;
+    font-family: serif, Arial, Helvetica,;
+}
+
+h1
+{
+    width: 20%;
+    margin: 0 auto 0 auto;
+    padding-top: 93px;
+    color: black;
+    font-family: 'Vollkorn', serif;
+}
+
+
+h2
+{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p
+{
+    font-family: 'Cinzel', serif;
+    padding-top: 29px;
+}
+
+
+.blessed
+{
+    margin-top: 0;
+    position: absolute;
+    top: 10%;
+    right: 40%;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #d9ecf2;
+}
+
+li {
+float: left;
+border-right:1px solid #d9ecf2;
+}
+
+li:last-child {
+border-right: none;
+}
+
+li a {
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #1aa6b7;
+}
+
+.active {
+background-color: #1aa6b7;
+}
+
